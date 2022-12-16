@@ -2,7 +2,7 @@
 class database
 {
     private $host = "localhost";
-    private $dbname = "Food";
+    private $dbname = "Dice-game";
     private $user = "root";
     private $password = "";
     public function connect()

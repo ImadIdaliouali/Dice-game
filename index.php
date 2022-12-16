@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Ordering</title>
+    <title>Dice game</title>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 
 <body>
-    <h1>Food Ordering</h1>
-    <a href="./View/logout.php">Logout</a>
+    <header>
+        <h1>Dice game</h1>
+        <a href="./View/logout.php">Logout</a>
+    </header>
 </body>
 
 </html>
