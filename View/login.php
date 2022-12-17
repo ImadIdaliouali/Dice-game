@@ -11,6 +11,7 @@ if (isset($_POST["submit"])) {
         foreach ($users as $u) {
             if ($u["username"] == $_POST["username"] && $u["password"] == $_POST["password"]) {
                 $_SESSION["username"] = $_POST["username"];
+                $_SESSION["id"] = $u["id"];
                 header("location:../index.php");
             }
         }
